@@ -33,10 +33,10 @@ function App() {
                               </a>
                           </li>
                           {/* <li className="slide-menu__item">
-                              <a href="#portfolio" className="slide-menu__link">
-                                  Portfolio
-                              </a>
-                          </li> */}
+                      <a href="#portfolio" className="slide-menu__link">
+                          Portfolio
+                      </a>
+                  </li> */}
                           {/* <!-- <li className="slide-menu__item"><a href="#blog" className="slide-menu__link">Blog</a></li> --> */}
                           <li className="slide-menu__item">
                               <a href="#contact" className="slide-menu__link">
@@ -107,10 +107,10 @@ function App() {
                                               Резюме
                                           </a>
                                           {/* <a
-                                              className="nav-item nav-link color-js"
-                                              href="#portfolio">
-                                              Портфолию
-                                          </a> */}
+                                        className="nav-item nav-link color-js"
+                                        href="#portfolio">
+                                        Портфолию
+                                    </a> */}
                                           <a className="nav-item nav-link color-js" href="#contact">
                                               Контакты
                                           </a>
@@ -178,10 +178,10 @@ function App() {
                                       I am <span className="about__theme">Serge Kenne</span>
                                   </h3>
                                   {/* <!-- <p className="about__description">
-                                    I am a frontend web developer. I can provide clean code and
-                                    pixel perfect design. I also make website more & more
-                                    interactive with web animations.
-                                </p> --> */}
+                              I am a frontend web developer. I can provide clean code and
+                              pixel perfect design. I also make website more & more
+                              interactive with web animations.
+                          </p> --> */}
                                   <p className="about__description">
                                       Занимаюсь разработкой сайтов, владею HTML5, CSS3, Bootstrap,
                                       Flex Box, Grid, JavaScript(ES6), Препроцессорами Sass/Scss.
@@ -202,8 +202,8 @@ function App() {
                                           Серж Симплис
                                       </li>
                                       {/* <!-- <li className="about__item">
-                                        <span className="about__name">возраст</span>: 42 лет
-                                    </li> --> */}
+                                  <span className="about__name">возраст</span>: 42 лет
+                              </li> --> */}
                                       <li className="about__item">
                                           <span className="about__name">Гражданство</span>:
                                           Республика Камерун
@@ -224,91 +224,91 @@ function App() {
                   <section id="resume" className="resume">
                       <div className="container">
                           {/* <!-- <div className="portfolio__wrap-title">
-                            <h2 className="portfolio__title text-center">МОИ НАВЫКИ</h2>
-                        </div> --> */}
+                      <h2 className="portfolio__title text-center">МОИ НАВЫКИ</h2>
+                  </div> --> */}
                           {/* <!-- <div className="resume__row" data-aos="fade-right" data-aos-duration="1000">
-                            <div className="resume__item">
-                                <h5 className="resume__title">HTML5</h5>
-                                <div className="resume__progress">
-                                    <div className="resume__value">95%</div>
-                                    <div className="resume__bar">
-                                        <div className="resume__pourcent" style="width: 95%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="resume__item">
-                                <h5 className="resume__title">CSS</h5>
-                                <div className="resume__progress">
-                                    <div className="resume__value">90%</div>
-                                    <div className="resume__bar">
-                                        <div className="resume__pourcent" style="width: 90%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="resume__item">
-                                <h5 className="resume__title">Javascript</h5>
-                                <div className="resume__progress">
-                                    <div className="resume__value">85%</div>
-                                    <div className="resume__bar">
-                                        <div className="resume__pourcent" style="width: 85%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="resume__item">
-                                <h5 className="resume__title">jQuery</h5>
-                                <div className="resume__progress">
-                                    <div className="resume__value">90%</div>
-                                    <div className="resume__bar">
-                                        <div className="resume__pourcent" style="width: 90%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="resume__item">
-                                <h5 className="resume__title">React, Next.js</h5>
-                                <div className="resume__progress">
-                                    <div className="resume__value">90%</div>
-                                    <div className="resume__bar">
-                                        <div className="resume__pourcent" style="width: 90%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="resume__item">
-                                <h5 className="resume__title">Angular</h5>
-                                <div className="resume__progress">
-                                    <div className="resume__value">60%</div>
-                                    <div className="resume__bar">
-                                        <div className="resume__pourcent" style="width: 60%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="resume__item">
-                                <h5 className="resume__title">VueJS</h5>
-                                <div className="resume__progress">
-                                    <div className="resume__value">80%</div>
-                                    <div className="resume__bar">
-                                        <div className="resume__pourcent" style="width: 80%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="resume__item">
-                                <h5 className="resume__title">NodeJS / expressJS</h5>
-                                <div className="resume__progress">
-                                    <div className="resume__value">80%</div>
-                                    <div className="resume__bar">
-                                        <div className="resume__pourcent" style="width: 80%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="resume__item">
-                                <h5 className="resume__title">PHP</h5>
-                                <div className="resume__progress">
-                                    <div className="resume__value">55%</div>
-                                    <div className="resume__bar">
-                                        <div className="resume__pourcent" style="width: 55%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --> */}
+                      <div className="resume__item">
+                          <h5 className="resume__title">HTML5</h5>
+                          <div className="resume__progress">
+                              <div className="resume__value">95%</div>
+                              <div className="resume__bar">
+                                  <div className="resume__pourcent" style="width: 95%"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="resume__item">
+                          <h5 className="resume__title">CSS</h5>
+                          <div className="resume__progress">
+                              <div className="resume__value">90%</div>
+                              <div className="resume__bar">
+                                  <div className="resume__pourcent" style="width: 90%"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="resume__item">
+                          <h5 className="resume__title">Javascript</h5>
+                          <div className="resume__progress">
+                              <div className="resume__value">85%</div>
+                              <div className="resume__bar">
+                                  <div className="resume__pourcent" style="width: 85%"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="resume__item">
+                          <h5 className="resume__title">jQuery</h5>
+                          <div className="resume__progress">
+                              <div className="resume__value">90%</div>
+                              <div className="resume__bar">
+                                  <div className="resume__pourcent" style="width: 90%"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="resume__item">
+                          <h5 className="resume__title">React, Next.js</h5>
+                          <div className="resume__progress">
+                              <div className="resume__value">90%</div>
+                              <div className="resume__bar">
+                                  <div className="resume__pourcent" style="width: 90%"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="resume__item">
+                          <h5 className="resume__title">Angular</h5>
+                          <div className="resume__progress">
+                              <div className="resume__value">60%</div>
+                              <div className="resume__bar">
+                                  <div className="resume__pourcent" style="width: 60%"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="resume__item">
+                          <h5 className="resume__title">VueJS</h5>
+                          <div className="resume__progress">
+                              <div className="resume__value">80%</div>
+                              <div className="resume__bar">
+                                  <div className="resume__pourcent" style="width: 80%"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="resume__item">
+                          <h5 className="resume__title">NodeJS / expressJS</h5>
+                          <div className="resume__progress">
+                              <div className="resume__value">80%</div>
+                              <div className="resume__bar">
+                                  <div className="resume__pourcent" style="width: 80%"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="resume__item">
+                          <h5 className="resume__title">PHP</h5>
+                          <div className="resume__progress">
+                              <div className="resume__value">55%</div>
+                              <div className="resume__bar">
+                                  <div className="resume__pourcent" style="width: 55%"></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div> --> */}
                       </div>
                   </section>
                   <section className="portfolio" id="portfolio">
@@ -335,6 +335,50 @@ function App() {
                                           </p>
                                           <a
                                               href="https://lunaro.ru/"
+                                              target="_blank"
+                                              className="card__link card__link--site">
+                                              Демо
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div className="col-lg-4 col-md-6 mb-4">
+                                  <div className="card">
+                                      <div className="card__image">
+                                          <img
+                                              className="card-img-top"
+                                              src="img/100pichei.JPG"
+                                              alt="shoppingCart"
+                                          />
+                                      </div>
+                                      <div className="card-body">
+                                          <h5 className="card-title">{'Интернет магазин'}</h5>
+                                          <p className="card-text">html, javascript, synfony</p>
+                                          <a
+                                              href="https://100pechey.ru/"
+                                              target="_blank"
+                                              className="card__link card__link--site">
+                                              Демо
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div className="col-lg-4 col-md-6 mb-4">
+                                  <div className="card">
+                                      <div className="card__image">
+                                          <img
+                                              className="card-img-top"
+                                              src="img/hair-sky.JPG"
+                                              alt="Hair&sky"
+                                          />
+                                      </div>
+                                      <div className="card-body">
+                                          <h5 className="card-title">{'многостраничный сайт'}</h5>
+                                          <p className="card-text">
+                                              HTML SCSS BEM JavaScript Swiper Slider ...
+                                          </p>
+                                          <a
+                                              href="https://hsii.ru/"
                                               target="_blank"
                                               className="card__link card__link--site">
                                               Демо
@@ -398,50 +442,6 @@ function App() {
                                               target="_blank"
                                               className="card__link card__link--source">
                                               Исходники
-                                          </a>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div className="col-lg-4 col-md-6 mb-4">
-                                  <div className="card">
-                                      <div className="card__image">
-                                          <img
-                                              className="card-img-top"
-                                              src="img/100pichei.JPG"
-                                              alt="shoppingCart"
-                                          />
-                                      </div>
-                                      <div className="card-body">
-                                          <h5 className="card-title">{'Интернет магазин'}</h5>
-                                          <p className="card-text">html, javascript, synfony</p>
-                                          <a
-                                              href="https://100pechey.ru/"
-                                              target="_blank"
-                                              className="card__link card__link--site">
-                                              Демо
-                                          </a>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div className="col-lg-4 col-md-6 mb-4">
-                                  <div className="card">
-                                      <div className="card__image">
-                                          <img
-                                              className="card-img-top"
-                                              src="img/hair-sky.JPG"
-                                              alt="Hair&sky"
-                                          />
-                                      </div>
-                                      <div className="card-body">
-                                          <h5 className="card-title">{'многостраничный сайт'}</h5>
-                                          <p className="card-text">
-                                              HTML SCSS BEM JavaScript Swiper Slider ...
-                                          </p>
-                                          <a
-                                              href="https://hsii.ru/"
-                                              target="_blank"
-                                              className="card__link card__link--site">
-                                              Демо
                                           </a>
                                       </div>
                                   </div>
@@ -532,7 +532,6 @@ function App() {
                                       </div>
                                   </div>
                               </div>
-
                               <div className="col-lg-4 col-md-6 mb-4">
                                   <div className="card">
                                       <div className="card__image">
@@ -556,7 +555,6 @@ function App() {
                                       </div>
                                   </div>
                               </div>
-
                               <div className="col-lg-4 col-md-6 mb-4">
                                   <div className="card">
                                       <div className="card__image">
@@ -584,36 +582,6 @@ function App() {
                                       </div>
                                   </div>
                               </div>
-
-                              {/* <!-- <div className="col-lg-4 col-md-6 mb-4">
-                                <div className="card">
-                                    <div className="card__image">
-                                        <img
-                                            className="card-img-top"
-                                            src="img/ecommerce-react1.JPG"
-                                            alt="Card image cap"
-                                        />
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">"SPA ecommerce react.js"</h5>
-                                        <p className="card-text">
-                                            React | Redux | localStorage | Materialize |sweetalert2
-                                        </p>
-                                        <a
-                                            href="https://ecommerce-react-js.herokuapp.com/"
-                                            target="_blank"
-                                            className="card__link card__link--site"
-                                            >Демо</a
-                                        >
-                                        <a
-                                            href="https://github.com/sergKenne/ecommerce-react"
-                                            target="_blank"
-                                            className="card__link card__link--source"
-                                            >Исходники</a
-                                        >
-                                    </div>
-                                </div>
-                            </div> --> */}
                               <div className="col-lg-4 col-md-6 mb-4">
                                   <div className="card">
                                       <div className="card__image">
@@ -634,40 +602,9 @@ function App() {
                                               className="card__link card__link--site">
                                               Демо
                                           </a>
-                                          {/* <!-- <a href="https://github.com/sergKenne/ecommerce-react" target="_blank" className="card__link card__link--source">Исходники</a> --> */}
                                       </div>
                                   </div>
                               </div>
-                              {/* <div className="col-lg-4 col-md-6 mb-4">
-                                <div className="card">
-                                    <div className="card__image">
-                                        <img
-                                            className="card-img-top"
-                                            src="img/wineStore.JPG"
-                                            alt="Card image cap"
-                                        />
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">"Wines Store"</h5>
-                                        <p className="card-text">
-                                            адаптивная верстка | HTML CSS JS | Slider js | БЭМ
-                                            методология
-                                        </p>
-                                        <a
-                                            href="/portfolio/winesStore/index.html"
-                                            target="_blank"
-                                            className="card__link card__link--site"
-                                            >Демо</a
-                                        >
-                                        <a
-                                            href="https://github.com/sergKenne/winesStore"
-                                            target="_blank"
-                                            className="card__link card__link--source"
-                                            >Исходники</a
-                                        >
-                                    </div>
-                                </div>
-                            </div> */}
                               <div className="col-lg-4 col-md-6 mb-4">
                                   <div className="card">
                                       <div className="card__image">
@@ -678,13 +615,13 @@ function App() {
                                           />
                                       </div>
                                       <div className="card-body">
-                                          <h5 className="card-title">"237realestate.com"</h5>
+                                          <h5 className="card-title">{'237realestate.com'}</h5>
                                           <p className="card-text">
                                               адаптивная верстка | HTML CSS JS | Bootstrap | БЭМ
                                               методология
                                           </p>
                                           <a
-                                              href="/portfolio/RealestateProjet/index.html"
+                                              href="https://www.cameroonlist.com"
                                               target="_blank"
                                               className="card__link card__link--site">
                                               Демо
@@ -698,66 +635,66 @@ function App() {
                                       </div>
                                   </div>
                               </div>
-                              <div className="col-lg-4 col-md-6 mb-4">
-                                  <div className="card">
-                                      <div className="card__image">
-                                          <img
-                                              className="card-img-top"
-                                              src="img/xeone.JPG"
-                                              alt="Card image cap"
-                                          />
-                                      </div>
-                                      <div className="card-body">
-                                          <h5 className="card-title">{'Landing page XeOne'}</h5>
-                                          <p className="card-text">
-                                              Одностраничный сайт | AOS.css | jQuery | BEM |
-                                              Bootstrap
-                                          </p>
-                                          <a
-                                              href="/portfolio/XeOne/index.html"
-                                              target="_blank"
-                                              className="card__link card__link--site">
-                                              Демо
-                                          </a>
-                                          <a
-                                              href="https://github.com/sergKenne/XeOne"
-                                              target="_blank"
-                                              className="card__link card__link--source">
-                                              Исходники
-                                          </a>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div className="col-lg-4 col-md-6 mb-4">
-                                  <div className="card">
-                                      <div className="card__image">
-                                          <img
-                                              className="card-img-top"
-                                              src="img/computerStore.JPG"
-                                              alt="Card image cap"
-                                          />
-                                      </div>
-                                      <div className="card-body">
-                                          <h5 className="card-title">{'Computer Store'}</h5>
-                                          <p className="card-text">
-                                              адаптивная верстка | HTML CSS JS | Slider js | БЭМ
-                                              методология
-                                          </p>
-                                          <a
-                                              href="/portfolio/computerStore/index.html"
-                                              target="_blank"
-                                              className="card__link card__link--site">
-                                              Демо
-                                          </a>
-                                          <a
-                                              href="https://github.com/sergKenne/computerStore"
-                                              target="_blank"
-                                              className="card__link card__link--source">
-                                              Исходники
-                                          </a>
-                                      </div>
-                                  </div>
-                              </div>
+                              {/* <div className="col-lg-4 col-md-6 mb-4">
+                                <div className="card">
+                                    <div className="card__image">
+                                        <img
+                                            className="card-img-top"
+                                            src="img/xeone.JPG"
+                                            alt="Card image cap"
+                                        />
+                                    </div>
+                                    <div className="card-body">
+                                        <h5 className="card-title">{'Landing page XeOne'}</h5>
+                                        <p className="card-text">
+                                            Одностраничный сайт | AOS.css | jQuery | BEM |
+                                            Bootstrap
+                                        </p>
+                                        <a
+                                            href="/portfolio/XeOne/index.html"
+                                            target="_blank"
+                                            className="card__link card__link--site">
+                                            Демо
+                                        </a>
+                                        <a
+                                            href="https://github.com/sergKenne/XeOne"
+                                            target="_blank"
+                                            className="card__link card__link--source">
+                                            Исходники
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 mb-4">
+                                <div className="card">
+                                    <div className="card__image">
+                                        <img
+                                            className="card-img-top"
+                                            src="img/computerStore.JPG"
+                                            alt="Card image cap"
+                                        />
+                                    </div>
+                                    <div className="card-body">
+                                        <h5 className="card-title">{'Computer Store'}</h5>
+                                        <p className="card-text">
+                                            адаптивная верстка | HTML CSS JS | Slider js | БЭМ
+                                            методология
+                                        </p>
+                                        <a
+                                            href="/portfolio/computerStore/index.html"
+                                            target="_blank"
+                                            className="card__link card__link--site">
+                                            Демо
+                                        </a>
+                                        <a
+                                            href="https://github.com/sergKenne/computerStore"
+                                            target="_blank"
+                                            className="card__link card__link--source">
+                                            Исходники
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> */}
                           </div>
                       </div>
                   </section>
