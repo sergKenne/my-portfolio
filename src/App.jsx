@@ -1,7 +1,13 @@
+import { useEffect } from 'react';
 import './App.scss'
+import { getActions, setSmoothScrool } from './utils';
 
 function App() {
   
+    useEffect(() => {
+        getActions()
+        setSmoothScrool();
+    },[])
   return (
       <>
           <div className="page" id="page">
