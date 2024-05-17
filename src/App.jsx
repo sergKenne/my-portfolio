@@ -126,8 +126,8 @@ function App() {
                           {/* <!-- <h1 className="content__title">Frontend-разработчик</h1> --> */}
 
                           <h1 className="content__title" style={{ padding: '0px 10px' }}>
-                              Frontend-разработчик (React, Next js, Vue, Typescript, Node.js,
-                              Express.js and MongoDB)
+                              Frontend-разработчик (React, Next.js, Vue.js, Typescript, Node.js and
+                              Express.js)
                           </h1>
                           <p className="content__text">Создание высококачественных веб-сайтов</p>
                           <div className="content__view-portofolio">
@@ -184,16 +184,17 @@ function App() {
                           </p> --> */}
                                   <p className="about__description">
                                       Занимаюсь разработкой сайтов, владею HTML5, CSS3, Bootstrap,
-                                      Flex Box, Grid, JavaScript(ES6), Препроцессорами Sass/Scss.
+                                      Flex Box, Grid, JavaScript(ES6+), Препроцессорами Sass/Scss.
                                       <br />
-                                      - Хорошие знание в области: JavaScript(ES6) React, Redux,
-                                      Redux-Thunk, Next.js, Typescript, JQuery, Vue, Vuex, <br />
+                                      - Хорошие знание в области: JavaScript(ES6+),Typescript, React, Next.js,
+                                      Redux/Redux Toolkit,Vue, Vuex and pinia.{' '}
+                                      <br />
                                       - Работаю с библиотеками Node js, Express.js, Graphql, mongoDB
                                       <br />
                                       - Ответственный, инициативный.
                                       <br />
                                       - Умею разбираться в чужом коде и работать в команде
-                                      <br />- Отличные знания HTML, CSS. SCSS/Sass (возможно less).
+                                      <br />- Отличные знания HTML, CSS/SCSS  (возможно less).
                                       Знание методологии БЭМ, кроссбраузерная и адаптивная вёрстка
                                   </p>
                                   <ul className="about__list">
