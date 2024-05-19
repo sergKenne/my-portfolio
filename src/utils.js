@@ -11,23 +11,39 @@ export const getActions = () => {
             $('.barBtn-js').addClass('narbar-color-fixed');
             $('.navbar-brand img').attr('src', 'img/logo-dark.png');
             $('.nav-icon').addClass('btn-fixed');
-            $('.color-js').click(function () {
-                $('.color-js').removeClass('activeLink-js');
-                $(this).addClass('activeLink-js');
-                $('.navbar-collapse').removeClass('show');
-                $('.nav-icon_1').removeClass('nav-icon--first');
-                $('.nav-icon_2').removeClass('nav-icon--middle');
-                $('.nav-icon_3').removeClass('nav-icon--last');
-            });
+
+            // $('.color-js').click(function () {
+            //     $('.color-js').removeClass('activeLink-js');
+            //     $(this).addClass('activeLink-js');
+            //     $('.navbar-collapse').removeClass('show');
+            //     $('.nav-icon_1').removeClass('nav-icon--first');
+            //     $('.nav-icon_2').removeClass('nav-icon--middle');
+            //     $('.nav-icon_3').removeClass('nav-icon--last');
+            // });
         } else {
             $('#mainnav').removeClass('navbar-fixed-top');
             $('.color-js').removeClass('narbar-color-fixed');
             $('.barBtn-js').removeClass('narbar-color-fixed');
             $('.navbar-brand img').attr('src', 'img/logo-transparent.png');
             $('.nav-icon').removeClass('btn-fixed');
-            $('.color-js').removeClass('activeLink-js');
+            // $('.color-js').removeClass('activeLink-js');
         }
     });
+
+
+    //test
+     $('.color-js').click(function () {
+         $('.color-js').removeClass('activeLink-js');
+         $(this).addClass('activeLink-js');
+         $('.navbar-collapse').removeClass('show');
+         $('.nav-icon_1').removeClass('nav-icon--first');
+         $('.nav-icon_2').removeClass('nav-icon--middle');
+         $('.nav-icon_3').removeClass('nav-icon--last');
+     });
+
+
+
+
 
     if (windowWidth < 769) {
         $(window).bind('scroll', function () {

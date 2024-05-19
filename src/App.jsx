@@ -5,9 +5,11 @@ import { getActions, setSmoothScrool } from './utils';
 function App() {
   
     useEffect(() => {
-        getActions()
+        
+        getActions();
         setSmoothScrool();
-    },[])
+        
+    }, [])
   return (
       <>
           <div className="page" id="page">
@@ -74,7 +76,7 @@ function App() {
                       </footer>
                   </div>
               </div>
-              <header className="header" id="home">
+              <header className="header" id="home" style={{ border: '3px solid red' }}>
                   <div className="showcase">
                       <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="mainnav">
                           <div className="showcase__navbar">
@@ -97,7 +99,9 @@ function App() {
                                   </button>
                                   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                       <div className="navbar-nav ml-auto">
-                                          <a className="nav-item nav-link color-js" href="#home">
+                                          <a
+                                              className="nav-item nav-link color-js "
+                                              href="#home">
                                               Главная
                                           </a>
                                           <a className="nav-item nav-link color-js" href="#about">
@@ -185,17 +189,16 @@ function App() {
                                   <p className="about__description">
                                       Занимаюсь разработкой сайтов, владею HTML5, CSS3, Bootstrap,
                                       Flex Box, Grid, JavaScript(ES6+), Препроцессорами Sass/Scss.
-                                      <br />
-                                      - Хорошие знание в области: JavaScript(ES6+),Typescript, React, Next.js,
-                                      Redux/Redux Toolkit,Vue, Vuex and pinia.{' '}
+                                      <br />- Хорошие знание в области: JavaScript(ES6+),Typescript,
+                                      React, Next.js, Redux/Redux Toolkit,Vue, Vuex and pinia.{' '}
                                       <br />
                                       - Работаю с библиотеками Node js, Express.js, Graphql, mongoDB
                                       <br />
                                       - Ответственный, инициативный.
                                       <br />
                                       - Умею разбираться в чужом коде и работать в команде
-                                      <br />- Отличные знания HTML, CSS/SCSS  (возможно less).
-                                      Знание методологии БЭМ, кроссбраузерная и адаптивная вёрстка
+                                      <br />- Отличные знания HTML, CSS/SCSS (возможно less). Знание
+                                      методологии БЭМ, кроссбраузерная и адаптивная вёрстка
                                   </p>
                                   <ul className="about__list">
                                       <li className="about__item">
