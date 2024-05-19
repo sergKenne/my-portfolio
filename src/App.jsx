@@ -76,7 +76,7 @@ function App() {
                       </footer>
                   </div>
               </div>
-              <header className="header" id="home" style={{ border: '3px solid red' }}>
+              <header className="header" id="home">
                   <div className="showcase">
                       <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="mainnav">
                           <div className="showcase__navbar">
