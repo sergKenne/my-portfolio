@@ -223,9 +223,9 @@ function App() {
                   </section>
                   <section id="resume" className="resume">
                       <div className="container">
-                           <div className="portfolio__wrap-title">
+                           {/* <div className="portfolio__wrap-title">
                                 <h2 className="portfolio__title text-center">МОИ НАВЫКИ</h2>
-                            </div> 
+                            </div>  */}
                           {/* <!-- <div className="resume__row" data-aos="fade-right" data-aos-duration="1000">
                       <div className="resume__item">
                           <h5 className="resume__title">HTML5</h5>
