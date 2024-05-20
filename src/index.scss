@@ -398,7 +398,6 @@ a {
 }
 
 
-
 .navbar-dark .navbar-nav .nav-link:hover {
 	color: #00bcd4; 
 }
@@ -423,6 +422,7 @@ a {
 		font-size: 3.6rem;
 		font-family: 'Kurale', serif;
 		margin-bottom: .4rem;
+		padding: 0px 10px;
 		@media screen and (max-width: 1024px) {
 	   		font-size: 3rem;
 	   	}
@@ -445,6 +445,8 @@ a {
 		color: rgb(242, 242, 242);
 		font-family: 'Kurale', serif;
 		font-size: 1.7rem;
+		padding-left: 5px;
+		padding-right: 5px;
 
 		@media screen and (max-width: 426px) {
 	    	font-size: 1.3rem;
@@ -639,9 +641,10 @@ a {
 
 	&__img {
 		padding-right: 2rem;
-		height: 300px;
-		width: 300px;
-		object-fit: cover;
+		// height: 300px;
+		// width: 300px;
+		// object-fit: cover;
+		object-fit: contain;
 		@media screen and (max-width: 769px) {
 			width: 200px;
 			height: 200px;
@@ -985,8 +988,11 @@ button:focus {
 }
 
 .narbar-color-fixed {
-	//color: #000 !important;
 	color: #a4acc4!important;
+	//color: #a4acc4;
+	&:hover {
+		color: #00bcd4!important;
+	}
 }
 
 .activeLink-js {

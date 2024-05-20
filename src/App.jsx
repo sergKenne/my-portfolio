@@ -99,9 +99,7 @@ function App() {
                                   </button>
                                   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                       <div className="navbar-nav ml-auto">
-                                          <a
-                                              className="nav-item nav-link color-js "
-                                              href="#home">
+                                          <a className="nav-item nav-link color-js " href="#home">
                                               Главная
                                           </a>
                                           <a className="nav-item nav-link color-js" href="#about">
@@ -127,11 +125,8 @@ function App() {
                           </div>
                       </nav>
                       <div className="content">
-                          {/* <!-- <h1 className="content__title">Frontend-разработчик</h1> --> */}
-
-                          <h1 className="content__title" style={{ padding: '0px 10px' }}>
-                              Frontend-разработчик (React, Next.js, Vue.js, Typescript, Node.js and
-                              Express.js)
+                          <h1 className="content__title">
+                              Frontend-разработчик (React, Next.js, Vue.js, Typescript and Node.js)
                           </h1>
                           <p className="content__text">Создание высококачественных веб-сайтов</p>
                           <div className="content__view-portofolio">
@@ -179,7 +174,8 @@ function App() {
                               </div>
                               <div className="about__item">
                                   <h3 className="about__title">
-                                      I am <span className="about__theme">Serge Kenne</span>
+                                      {/* I am <span className="about__theme">Serge Kenne</span><br/> */}
+                                      Я-<span className="about__theme">Серж Кенне</span>
                                   </h3>
                                   {/* <!-- <p className="about__description">
                               I am a frontend web developer. I can provide clean code and
@@ -187,9 +183,9 @@ function App() {
                               interactive with web animations.
                           </p> --> */}
                                   <p className="about__description">
-                                      Занимаюсь разработкой сайтов, владею HTML5, CSS3, Bootstrap,
-                                      Flex Box, Grid, JavaScript(ES6+), Препроцессорами Sass/Scss.
-                                      <br />- Хорошие знание в области: JavaScript(ES6+),Typescript,
+                                      Занимаюсь разработкой сайтов, владею HTML5, CSS3,
+                                      JavaScript(ES6+) и Препроцессорами Sass/Scss.
+                                      <br />- Хорошие знания в области: JavaScript(ES6+),Typescript,
                                       React, Next.js, Redux/Redux Toolkit,Vue, Vuex and pinia.{' '}
                                       <br />
                                       - Работаю с библиотеками Node js, Express.js, Graphql, mongoDB
@@ -197,7 +193,7 @@ function App() {
                                       - Ответственный, инициативный.
                                       <br />
                                       - Умею разбираться в чужом коде и работать в команде
-                                      <br />- Отличные знания HTML, CSS/SCSS (возможно less). Знание
+                                      <br />- Хорошие знания HTML, CSS/SCSS (возможно less). Знание
                                       методологии БЭМ, кроссбраузерная и адаптивная вёрстка
                                   </p>
                                   <ul className="about__list">
@@ -206,7 +202,7 @@ function App() {
                                           Серж Симплис
                                       </li>
                                       {/* <!-- <li className="about__item">
-                                  <span className="about__name">возраст</span>: 42 лет
+                                  <span className="about__name">возраст</span>: 32 лет
                               </li> --> */}
                                       <li className="about__item">
                                           <span className="about__name">Гражданство</span>:
@@ -227,9 +223,9 @@ function App() {
                   </section>
                   <section id="resume" className="resume">
                       <div className="container">
-                          {/* <!-- <div className="portfolio__wrap-title">
-                      <h2 className="portfolio__title text-center">МОИ НАВЫКИ</h2>
-                  </div> --> */}
+                           <div className="portfolio__wrap-title">
+                                <h2 className="portfolio__title text-center">МОИ НАВЫКИ</h2>
+                            </div> 
                           {/* <!-- <div className="resume__row" data-aos="fade-right" data-aos-duration="1000">
                       <div className="resume__item">
                           <h5 className="resume__title">HTML5</h5>
@@ -450,7 +446,7 @@ function App() {
                                       </div>
                                   </div>
                               </div>
-                              <div className="col-lg-4 col-md-6 mb-4">
+                              {/* <div className="col-lg-4 col-md-6 mb-4">
                                   <div className="card">
                                       <div className="card__image">
                                           <img
@@ -481,7 +477,7 @@ function App() {
                                           </a>
                                       </div>
                                   </div>
-                              </div>
+                              </div> */}
                               <div className="col-lg-4 col-md-6 mb-4">
                                   <div className="card">
                                       <div className="card__image">
@@ -509,7 +505,7 @@ function App() {
                                       </div>
                                   </div>
                               </div>
-                              <div className="col-lg-4 col-md-6 mb-4">
+                              {/* <div className="col-lg-4 col-md-6 mb-4">
                                   <div className="card">
                                       <div className="card__image">
                                           <img
@@ -535,8 +531,8 @@ function App() {
                                           </a>
                                       </div>
                                   </div>
-                              </div>
-                              <div className="col-lg-4 col-md-6 mb-4">
+                              </div> */}
+                              {/* <div className="col-lg-4 col-md-6 mb-4">
                                   <div className="card">
                                       <div className="card__image">
                                           <img
@@ -558,8 +554,8 @@ function App() {
                                           </a>
                                       </div>
                                   </div>
-                              </div>
-                              <div className="col-lg-4 col-md-6 mb-4">
+                              </div> */}
+                              {/* <div className="col-lg-4 col-md-6 mb-4">
                                   <div className="card">
                                       <div className="card__image">
                                           <img
@@ -585,8 +581,8 @@ function App() {
                                           </a>
                                       </div>
                                   </div>
-                              </div>
-                              <div className="col-lg-4 col-md-6 mb-4">
+                              </div> */}
+                              {/* <div className="col-lg-4 col-md-6 mb-4">
                                   <div className="card">
                                       <div className="card__image">
                                           <img
@@ -608,8 +604,8 @@ function App() {
                                           </a>
                                       </div>
                                   </div>
-                              </div>
-                              <div className="col-lg-4 col-md-6 mb-4">
+                              </div> */}
+                              {/* <div className="col-lg-4 col-md-6 mb-4">
                                   <div className="card">
                                       <div className="card__image">
                                           <img
@@ -638,67 +634,8 @@ function App() {
                                           </a>
                                       </div>
                                   </div>
-                              </div>
-                              {/* <div className="col-lg-4 col-md-6 mb-4">
-                                <div className="card">
-                                    <div className="card__image">
-                                        <img
-                                            className="card-img-top"
-                                            src="img/xeone.JPG"
-                                            alt="Card image cap"
-                                        />
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">{'Landing page XeOne'}</h5>
-                                        <p className="card-text">
-                                            Одностраничный сайт | AOS.css | jQuery | BEM |
-                                            Bootstrap
-                                        </p>
-                                        <a
-                                            href="/portfolio/XeOne/index.html"
-                                            target="_blank"
-                                            className="card__link card__link--site">
-                                            Демо
-                                        </a>
-                                        <a
-                                            href="https://github.com/sergKenne/XeOne"
-                                            target="_blank"
-                                            className="card__link card__link--source">
-                                            Исходники
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 mb-4">
-                                <div className="card">
-                                    <div className="card__image">
-                                        <img
-                                            className="card-img-top"
-                                            src="img/computerStore.JPG"
-                                            alt="Card image cap"
-                                        />
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">{'Computer Store'}</h5>
-                                        <p className="card-text">
-                                            адаптивная верстка | HTML CSS JS | Slider js | БЭМ
-                                            методология
-                                        </p>
-                                        <a
-                                            href="/portfolio/computerStore/index.html"
-                                            target="_blank"
-                                            className="card__link card__link--site">
-                                            Демо
-                                        </a>
-                                        <a
-                                            href="https://github.com/sergKenne/computerStore"
-                                            target="_blank"
-                                            className="card__link card__link--source">
-                                            Исходники
-                                        </a>
-                                    </div>
-                                </div>
-                            </div> */}
+                              </div> */}
+                              
                           </div>
                       </div>
                   </section>

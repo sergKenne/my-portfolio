@@ -31,10 +31,10 @@ export const getActions = () => {
     });
 
 
-    //test
+    
      $('.color-js').click(function () {
-         $('.color-js').removeClass('activeLink-js');
-         $(this).addClass('activeLink-js');
+        //  $('.color-js').removeClass('activeLink-js');
+        //  $(this).addClass('activeLink-js');
          $('.navbar-collapse').removeClass('show');
          $('.nav-icon_1').removeClass('nav-icon--first');
          $('.nav-icon_2').removeClass('nav-icon--middle');
@@ -110,7 +110,7 @@ export const getActions = () => {
                     {
                         scrollTop: target.offset().top,
                     },
-                    1000,
+                    500,//1000,
                 );
                 return false;
             }
