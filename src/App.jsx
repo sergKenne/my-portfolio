@@ -3,12 +3,10 @@ import './App.scss'
 import { getActions, setSmoothScrool } from './utils';
 
 function App() {
-  
+
     useEffect(() => {
-        
         getActions();
         setSmoothScrool();
-        
     }, [])
   return (
       <>
@@ -223,7 +221,7 @@ function App() {
                   </section>
                   <section id="resume" className="resume">
                       <div className="container">
-                           {/* <div className="portfolio__wrap-title">
+                          {/* <div className="portfolio__wrap-title">
                                 <h2 className="portfolio__title text-center">МОИ НАВЫКИ</h2>
                             </div>  */}
                           {/* <!-- <div className="resume__row" data-aos="fade-right" data-aos-duration="1000">
@@ -363,7 +361,7 @@ function App() {
                                       </div>
                                   </div>
                               </div>
-                              <div className="col-lg-4 col-md-6 mb-4">
+                              {/* <div className="col-lg-4 col-md-6 mb-4">
                                   <div className="card">
                                       <div className="card__image">
                                           <img
@@ -382,6 +380,37 @@ function App() {
                                               target="_blank"
                                               className="card__link card__link--site">
                                               Демо
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div> */}
+                              <div className="col-lg-4 col-md-6 mb-4">
+                                  <div className="card">
+                                      <div className="card__image">
+                                          <img
+                                              className="card-img-top"
+                                              src="img/test-page1.JPG"
+                                              alt="Hair&sky"
+                                          />
+                                      </div>
+                                      <div className="card-body">
+                                          <h5 className="card-title">
+                                              {'React/Context API/Typescript'}
+                                          </h5>
+                                          <p className="card-text">
+                                              приложения для проведения тестирования.
+                                          </p>
+                                          <a
+                                              href="https://online-test-application.netlify.app/"
+                                              target="_blank"
+                                              className="card__link card__link--site">
+                                              Демо
+                                          </a>
+                                          <a
+                                              href="https://github.com/sergKenne/online-test-app"
+                                              target="_blank"
+                                              className="card__link card__link--source">
+                                              Исходники
                                           </a>
                                       </div>
                                   </div>
@@ -635,7 +664,6 @@ function App() {
                                       </div>
                                   </div>
                               </div> */}
-                              
                           </div>
                       </div>
                   </section>
