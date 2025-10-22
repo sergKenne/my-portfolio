@@ -761,6 +761,13 @@ a {
 
 	&__link {
 
+		text-align: center;
+		@media screen and (max-width: 325px) {
+			display: block;
+			margin-bottom: 20px;
+			width: 100%;
+		}
+
 		&--site {
 			padding: 10px 28px;
 			background-color: #34567d;
@@ -771,6 +778,7 @@ a {
 			margin-right: 1rem;
 			border: none;
 			text-decoration: none;
+			
 
 			&:hover {
 				background-color: rgba(#4b7ab1, .1);

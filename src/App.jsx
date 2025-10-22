@@ -130,7 +130,7 @@ function App() {
                     Препроцессорами Sass/Scss.
                     <br />- Хорошие знания в области: JavaScript(ES6+),Typescript, React, Next.js,
                     Redux/Redux Toolkit,Vue, Vuex and pinia. <br />
-                    - Работаю с библиотеками Node js, Express.js, Graphql, mongoDB
+                    - Работаю с библиотеками Django, Node js, Express.js, Graphql, mongoDB
                     <br />
                     - Ответственный, инициативный.
                     <br />
